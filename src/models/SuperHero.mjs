@@ -1,7 +1,7 @@
-import mongoose from    'mongoose';
+import mongoose from 'mongoose';
 
 
-import mongoose from "mongoose";
+i
 
 const superheroSchema = new mongoose.Schema({
     nombreSuperHeroe: { type: String, required: true },
@@ -13,6 +13,6 @@ const superheroSchema = new mongoose.Schema({
     aliados: [String],
     enemigos: [String],
     createdAt: { type: Date, default: Date.now }
-  }, { collection: 'Grupo-01' });
+}, { collection: 'Grupo-01' });
 
 export default mongoose.model('SuperHero', superheroSchema, 'Grupo-01');
