@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 
-i
+
 
 const superheroSchema = new mongoose.Schema({
     nombreSuperHeroe: { type: String, required: true },
